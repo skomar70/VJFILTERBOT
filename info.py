@@ -7,7 +7,7 @@ import re
 from os import environ
 from Script import script 
 
-id_pattern = re.compile(r'^.\d+$')
+id_pattern = re.compile(r'^[+-]?\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
